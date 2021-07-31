@@ -34,4 +34,4 @@ This code inspired by Intel sample code.
 
 ## Output
 
-[Output](https://github.com/TallDave67/parallel-usm-vs-buffer-with-accessor/blob/main/oneapi/output.txt)
+[Output](https://github.com/TallDave67/parallel-usm-vs-bufffer-with-accessor/blob/main/output.txt)
