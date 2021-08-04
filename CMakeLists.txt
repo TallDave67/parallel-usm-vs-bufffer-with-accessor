@@ -3,8 +3,10 @@ project(usm-vs-bufffer-with-accessor)
 
 set(CMAKE_VERBOSE_MAKEFILE ON)
 
+add_subdirectory(device)
 add_subdirectory(kernels)
 include_directories(
+  device
   kernels
 )
 
@@ -16,4 +18,4 @@ target_compile_options(usm-vs-bufffer-with-accessor PRIVATE
   -std=c++20 -stdlib=libstdc++
 )
 
-target_link_libraries(usm-vs-bufffer-with-accessor usm-vs-bufffer-with-accessor-kernels)
+target_link_libraries(usm-vs-bufffer-with-accessor usm-vs-bufffer-with-accessor-device usm-vs-bufffer-with-accessor-kernels)
