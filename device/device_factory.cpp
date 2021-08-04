@@ -64,5 +64,8 @@ device && getBestDevice()
   {
     std::cout << "no cpu device available" << std::endl;
   }
+    
+  device d {};
+  return std::move(d);
 }
 
