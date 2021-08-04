@@ -22,9 +22,9 @@ Intel(R) oneAPI DPC++/C++ Compiler 2021.3.0 (2021.3.0.20210619)
 
 ## History
 
-dates: July 30 - Aug 1, 2021
+dates: July 30 - Aug 4, 2021
 
-duration: 8 hours
+duration: 10 hours
 
 ### Code from Another Developer
 
